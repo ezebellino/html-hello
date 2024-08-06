@@ -1,0 +1,39 @@
+*{
+    background-color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flexbox;
+    justify-content: center;
+}
+
+section {
+    flex-direction: column;
+    background-color: silver;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+img {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.strongh1 {
+    text-align: center;
+    background: white;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-footer {
+    padding: 10px;
+}
